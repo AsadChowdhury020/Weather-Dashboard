@@ -1,16 +1,75 @@
-# React + Vite
+# Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Weather Dashboard is a frontend web application built using React, Vite, and Tailwind CSS. It allows users to search for any city and view real-time weather information using the OpenWeatherMap API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The main objective of this project is to fetch and display live weather data while properly handling loading, error, and success states for a better user experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+### 1. Search Weather
+Users can enter a city name and click the Search button to get current weather details.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Loading State
+While the API request is in progress, a loading message is displayed to inform the user.
+
+### 3. Error Handling
+The application shows proper error messages for:
+- Invalid city name
+- Invalid API key
+- API limit exceeded
+- Network failure
+- Other unexpected errors
+
+### 4. Success State
+When the request is successful, the app displays:
+- City Name
+- Temperature
+- Humidity
+- Weather Condition
+- Wind Speed
+- Feels Like Temperature
+
+### 5. Professional UI
+A modern and responsive user interface is designed using Tailwind CSS with gradient backgrounds, clean cards, and smooth layout.
+
+---
+
+## Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- OpenWeatherMap API
+
+---
+
+## API Used
+
+### OpenWeatherMap API
+
+Official Website:  
+https://openweathermap.org/api
+
+---
+
+## Project Structure
+
+weather-dashboard/
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+
+---
+
