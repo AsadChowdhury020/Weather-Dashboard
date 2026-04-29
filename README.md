@@ -63,5 +63,4 @@ https://openweathermap.org/api
 Open terminal and run:
 
 ```bash
-git clone https://github.com/your-username/weather-dashboard.git
-
+https://github.com/AsadChowdhury020/Weather-Dashboard
