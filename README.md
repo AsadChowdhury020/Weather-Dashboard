@@ -57,19 +57,11 @@ https://openweathermap.org/api
 
 ---
 
-## Project Structure
 
-weather-dashboard/
-│
-├── src/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-│
-├── public/
-├── package.json
-├── vite.config.js
-└── README.md
+## Clone the Repository
 
----
+Open terminal and run:
+
+```bash
+git clone https://github.com/your-username/weather-dashboard.git
 
